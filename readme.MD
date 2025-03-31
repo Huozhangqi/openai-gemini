@@ -31,29 +31,6 @@ You will need to set up an account there.
 If you opt for “button-deploy”, you'll be guided through the process of forking the repository first,
 which is necessary for continuous integration (CI).
 
-
-### Deploy with Vercel
-
- [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/PublicAffairs/openai-gemini&repository-name=my-openai-gemini)
-- Alternatively can be deployed with [cli](https://vercel.com/docs/cli):
-  `vercel deploy`
-- Serve locally: `vercel dev`
-- Vercel _Functions_ [limitations](https://vercel.com/docs/functions/limitations) (with _Edge_ runtime)
-
-
-### Deploy to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/PublicAffairs/openai-gemini&integrationName=integrationName&integrationSlug=integrationSlug&integrationDescription=integrationDescription)
-- Alternatively can be deployed with [cli](https://docs.netlify.com/cli/get-started/):
-  `netlify deploy`
-- Serve locally: `netlify dev`
-- Two different api bases provided:
-  - `/v1` (e.g. `/v1/chat/completions` endpoint)  
-    _Functions_ [limits](https://docs.netlify.com/functions/get-started/?fn-language=js#synchronous-function-2)
-  - `/edge/v1`  
-    _Edge functions_ [limits](https://docs.netlify.com/edge-functions/limits/)
-
-
 ### Deploy to Cloudflare
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/PublicAffairs/openai-gemini)
